@@ -26,6 +26,10 @@ public class TurtleWorld
         turtle.setColor(Color.RED);
         turtle.moveTo(number.nextInt(),number.nextInt());
         turtle.setColor(Color.GREEN);
+        turtle.moveTo(number.nextInt(),number.nextInt());
+        turtle.setColor(Color.BLUE);
+        turtle.moveTo(number.nextInt(),number.nextInt());
+        turtle.setColor(Color.BLACK);
      
        
     }}
