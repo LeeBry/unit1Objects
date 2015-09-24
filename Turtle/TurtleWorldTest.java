@@ -9,8 +9,7 @@ public class TurtleWorldTest
         Turtle turtle = new Turtle(turtleWorld);
         turtle.setPenColor(Color.PINK);
         Random gener = new Random();
-        int number= gener.nextInt(10)+3;
-        System.out.println(number);
+        number= gener.nextInt(10)+3;
         int interior= (180*(number-2)/number);
         int times= number;
         while (times !=0)
@@ -18,8 +17,7 @@ public class TurtleWorldTest
             turtle.forward(50);
             turtle.turn(180-interior);
             times-=1;
-      
-      
+
+        }
     }
-}
 }
