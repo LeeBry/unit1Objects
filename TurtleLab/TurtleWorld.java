@@ -3,7 +3,7 @@ import java.util.Random;
 import javax.swing.JOptionPane;
 // Some designs make the turtle disapear due to the turtle going off the world, or filling screen.
 // If you like the design, then look on the other window, and copy the number down.
-// cool design # 341, 670, 495, 917
+// cool design # 341, 670, 495, 917, 340,910,
  public class TurtleWorld 
     {
         public static void main (String[] args)
